@@ -84,7 +84,7 @@ async def data_extraction(input: FunctionInputParams):
         raise e
     
 @function.defn(name="llm_qna_generator")
-async def llm_qna_generator(input: LLMQnAFunctionInputParams) -> dict:
+async def llm_qna_generator(input: LLMQnAFunctionInputParams):
     try:
         topic = input.topic
         section_content = input.section
@@ -119,7 +119,7 @@ async def llm_qna_generator(input: LLMQnAFunctionInputParams) -> dict:
         ]
         </json>
         """
-
+        log.info(f"prompt: {prompt}")
         messages = [
             ChatMessage(
                 role=MessageRole.SYSTEM,
@@ -127,13 +127,22 @@ async def llm_qna_generator(input: LLMQnAFunctionInputParams) -> dict:
             ),
             ChatMessage(role=MessageRole.USER, content=prompt),
         ]
-        
+        log.info(f"messages: {messages}")
         resp = llm.chat(messages)
-        # processed_resp
-        return resp.message.content
+        content = resp.message.content
         
+        # Parse the JSON string into a Python object before returning
+        try:
+            # qna_data = json.loads(content)
+            # if not isinstance(qna_data, list):
+            #     raise ValueError("Expected JSON array response")
+            return content  # Return the parsed list of Q&A pairs
+        except json.JSONDecodeError as e:
+            log.error("Failed to parse LLM response as JSON", error=str(e))
+            raise ValueError(f"Invalid JSON response from LLM: {str(e)}")
+            
     except Exception as e:
-        log.error("llm_qna_generator function failed", error=e)
+        log.error("llm_qna_generator function failed", error=str(e))
         raise e
     
 @function.defn(name="qna_generator")
