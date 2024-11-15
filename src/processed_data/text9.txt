@@ -1,0 +1,37 @@
+TOPIC: MS in Software Engineering - Enterprise Software Technologies
+---|--- 
+# MSSE Enterprise Software Technologies
+
+## Specialization Overview
+
+The Enterprise Software Technologies Program prepares outstanding men and
+women from around the world to be technical leaders in the rapidly changing
+software development environment. It offers an unsurpassed education in the
+fundamentals of software development and in-depth exposure to the latest
+technologies and trends shaking the foundation of Enterprise software
+development. It prepares students for technical careers in infrastructure
+software and enterprise application development.
+
+The program focuses on the study and research of distributed N-Tier
+Client/Server architectures that employ multiple clients and scalable server-
+side technologies to develop high performance systems that scale across
+multiple tiers of servers.
+
+### Required Specialization Core (6 units, take _both_  of the following
+classes)
+
+  * [CMPE 273](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE273.html) Enterprise Distributed Systems
+  * [CMPE 275](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE275.html) Enterprise Application Development
+
+### Specialization Choice (3 units, take _one  _of the following classes)
+
+  * [CMPE 281](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE281.html) Cloud Technologies
+  * [CMPE 283](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE283.html) Virtualization Technologies
+  * [CMPE 285](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE285.html) Software Engineering Processes
+  * [CMPE 287](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE287.html) Software Quality Assurance and Testing
+  * [CMPE 206](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE206.html) Computer Network Design
+  * [CMPE 207](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE207.html) Network Programming and Applications
+  * [CMPE 257](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE257.html) Machine Learning
+  * [CMPE 258](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE258.html) Deep Learning
+  * [CMPE 209](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE209.html) Network Security
+  * [CMPE 279](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE279.html) Software Security Technologies

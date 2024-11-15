@@ -1,0 +1,36 @@
+TOPIC: MS in Software Engineering - Cybersecurity Specialization
+---|--- 
+# Cybersecurity
+
+## Specialization Overview
+
+In today’s digital world, protecting information is of the highest priority
+for consumers, business leaders and government officials. Fewer than 10
+percent of the estimated 30,000 skilled security talent needed is currently
+available in the workforce.
+
+Students in our Master of Science in Software Engineering, specialization in
+Cybersecurity program gain hands-on experience in design, development,
+testing, and deployment of secure systems, as well as a solid understanding of
+organizational risk management and records integrity. Further distinguishing
+the SJSU cybersecurity program, is a strong operational understanding of how
+human factors influence the security of information systems.
+
+### Required Specialization Core (6 units, take _both_  of the following
+classes)
+
+  * [CMPE 209](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE209.html) Network Security
+  * [CMPE 279](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE279.html) Software Security Technologies
+
+### Specialization Choice (3 units, take _one_  of the following classes)
+
+  * [CMPE 273](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE273.html) Enterprise Distributed Systems
+  * [CMPE 275](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE275.html) Enterprise Application Development
+  * [CMPE 281](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE281.html) Cloud Technologies
+  * [CMPE 283](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE283.html) Virtualization Technologies
+  * [CMPE 285](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE285.html) Software Engineering Processes
+  * [CMPE 287](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE287.html) Software Quality Assurance and Testing
+  * [CMPE 206](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE206.html) Computer Network Design
+  * [CMPE 207](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE207.html) Network Programming and Applications
+  * [CMPE 257](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE257.html) Machine Learning
+  * [CMPE 258](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE258.html) Deep Learning

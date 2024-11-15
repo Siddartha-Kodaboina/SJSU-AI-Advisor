@@ -1,0 +1,116 @@
+TOPIC: MS in Software Engineering Program Requirementsat SJSU
+---|--- 
+# MSSE Program Requirements
+
+# Students Admitted Prior to Fall 2020
+
+Students admitted prior to Fall 2020 can continue to follow the course catalog
+published prior to Fall 2020 and follow the [program
+requirements](https://www.sjsu.edu/msse/msse-program-requirements-pre-
+fall2020/).
+
+# Program Changes
+
+There are important program catalog changes for students admitted for Fall
+2020 or later. In summary, the changes are:
+
+  * Increase from 6 to 9 units for degree core classes.
+  * New classes for the Data Science specialization. This change also affects the list of specialization choice classes for all other specializations.
+  * Reduction from 9 to 6 units for elective classes.
+  * Increase in total required units from 30 to 33 units for the MS Software Engineering degree by the requirement that all students take a GWAR (Graduation Writing Assessment Requirement) class.
+
+Students that were admitted prior to Fall 2020 may choose to graduate using
+the Fall 2020 catalog but they must meet all new requirements and cannot pick
+a subset of the requirements.
+
+# Course Work
+
+Students earn a Master of Science in Software Engineering (MSSE) degree by
+completing 33 semester units of graduate study, plus meeting a competency in
+written English requirement. All students are required to complete 9 units of
+degree core courses, 9 units of required specialization courses, 6 units of
+elective courses, 3 unit GWAR class, and 6 units of master's project or thesis
+to fulfill the 33 unit requirement. Details of these requirements are spelled
+out below.
+
+## Degree Core Courses (9 units)
+
+[CMPE 272](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE272.html)
+Enterprise Software Overview  
+[CMPE 202](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE202.html)
+Software Systems Engineering  
+[CMPE 255](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE255.html) Data
+Mining
+
+## Required Specialization Courses (9 units)
+
+Take two required specialization core classes from one of the six
+specalizations **plus  **one specialization choice class from one of the other
+five specializations. Visit the web page for each of the specializations for
+details.
+
+**[Enterprise Software Technologies](https://www.sjsu.edu/msse/msse-program-
+requirements/enterprise-software-technologies/index.html "Enterprise Software
+Technologies")**  
+**[Cloud Computing and Virtualization](https://www.sjsu.edu/msse/msse-program-
+requirements/cloud-computing/index.html "Cloud Computing and Virtualization")
+**  
+**[Software Systems Engineering](https://www.sjsu.edu/msse/msse-program-
+requirements/software-systems-engineering/index.html "Software Systems
+Engineering")**  
+**[Networking Software](https://www.sjsu.edu/msse/msse-program-
+requirements/networking-software/index.html "Networking Software")**  
+[**Data Science**](https://www.sjsu.edu/msse/msse-program-requirements/data-
+science/index.html)  
+[**Cybersecurity**](https://www.sjsu.edu/msse/msse-program-
+requirements/cybersecurity/index.html)
+
+## Elective Courses (select 6 units)
+
+All CMPE graduate courses (those with a course number of 200 or higher) except
+CMPE 270, 271, 294, 298, 298I, 295A/B, and 299A/B can be used as elective
+courses. This also includes specialization core classes from other
+specializations and all experimental courses (CMPE 296A - CMPE 296Z).
+
+**Note:**  Courses from other departments may be permitted with **prior
+**advisor approval.
+
+## Culminating Experience (choose one of the following)
+
+**Masters Project  (6 units)**  
+[CMPE 295A](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE295A.html)
+Master's Project I  
+[CMPE 295B ](http://info.sjsu.edu/web-
+dbgen/catalog/courses/CMPE295B.html)Master's Project II
+
+**Masters Thesis  (6 units)**  
+[CMPE 299A](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE299A.html)
+Master's Thesis I  
+[CMPE 299B](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE299B.html)
+Master's Thesis II
+
+**Note 1:**  The degree core and specialization core must be completed before
+beginning the Culminating Experience. It is advised that the specialization
+choice and CMPE 294/ENGR 200W be completed before taking taking CMPE 295A or
+CMPE 299A. However, only one of the two classes can be taken concurrently with
+CMPE 295A or CMPE 299A, but NOT both and cannot be taken after CMPE 295A. All
+degree core, specialization core, specialization choice, and CMPE 294/ENGR
+200W classes must be completed before starting CMPE 295B.
+
+## Competency in Written English
+
+[CMPE 294 ](http://info.sjsu.edu/web-
+dbgen/catalog/courses/CMPE294.html)Computer Engineering Seminar  
+[ENGR 200W](http://info.sjsu.edu/web-dbgen/catalog/courses/ENGR200W.html)
+Engineering Reports
+
+**Note:**  All graduate students are required to complete a competency in
+written English class as a requirement for graduation. The university catalog
+specifies alternate ways for meeting the competency in written English
+requirement (see the [catalog](http://catalog.sjsu.edu/) for details). If the
+written English requirement is met by one of the methods prescribed in the
+catalog, 3 units of additional elective units must be taken.
+
+The Computer Engineering department requires that if a course must be taken to
+meet the competency in written English requirement, that the course must be
+CMPE 294 (preferred) or ENGR 200W.

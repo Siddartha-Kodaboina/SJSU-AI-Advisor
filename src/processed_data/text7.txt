@@ -1,0 +1,58 @@
+TOPIC: MS in Software Engineering at SJSU
+---|--- 
+# Masters of Science in Software Engineering
+
+  * MSSE Highlights
+    * The MSSE program, offered by the Department of Computer Engineering, provides students with an educational experience that builds on traditional computer science and engineering and takes an integrative approach to software engineering. The program integrates the forces shaping software development, including emerging technologies, with the understanding of rapidly changing technologies and architectures and their influence on software engineering processes, where large-scale design is pre-eminent, service and component integration is the standard mode of development, and there is increased globalization of the software development workforce.
+
+The program offers specializations in Enterprise Software Technologies, Cloud
+Computing and Virtualization, Software Systems Engineering, Data Science,
+Cybersecurity and Networking Software.
+
+Class schedules are designed for the convenience of employed engineers who
+wish to pursue graduate work on a part-time basis.
+
+The MSSE Program welcomes students with undergraduate degrees in other
+engineering or science disciplines and that have strong programming skills.
+
+  * Program Requirements
+    * The [Masters of Science in Software Engineering program requirements](/cmpe/academic/ms-software-engineering/msse-program-requirements.php) include degree core, specialization classes, electives, and a culminating experience. 
+
+The SJSU Davidson College of Engineering Extended Studies also provides off-
+campus, cohort programs in Cloud/Mobile Computing, Data Science and
+Cybersecurity. These programs confer a MS Software Engineering degree by
+providing classes on a fixed schedule of evening classes. More information
+about the Engineering Extended Studies programs can be found
+[here](/ees/index.php).
+
+  * Specializations
+    * Six specializations are provided:
+
+[Enterprise Software Technologies](/cmpe/academic/ms-software-
+engineering/msse-enterprice-software-technologies.php)
+
+[Cloud Computing and Virtualization](/cmpe/academic/ms-software-
+engineering/msse-cloud-computing.php)
+
+[Software Systems Engineering](/cmpe/academic/ms-software-engineering/msse-
+software-systems-engineering.php)
+
+[Networking Software](/cmpe/academic/ms-software-engineering/msse-networking-
+software.php)
+
+[Data Science](/cmpe/academic/ms-software-engineering/msse-data-science.php)
+
+[Cybersecurity](/cmpe/academic/ms-software-engineering/msse-cybersecurity.php)
+
+  * MSSE Program Learning Outcomes
+    * (a) Be able to demonstrate an understanding of advanced knowledge of the practice of software engineering, from vision to analysis, design, validation and deployment.  
+(b) Be able to tackle complex engineering problems and tasks, using
+contemporary engineering principles, methodologies and tools.  
+(c) Be able to demonstrate leadership and the ability to participate in
+teamwork in an environment with different disciplines of engineering, science
+and business.  
+(d) Be aware of ethical, economic and environmental implications of their
+work, as appropriate.  
+(e) Be able to advance successfully in the engineering profession, and sustain
+a process of life-long learning in engineer or other professional areas.  
+(f) Be able to communicate effectively, in both oral and written forms.

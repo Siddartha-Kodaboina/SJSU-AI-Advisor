@@ -1,0 +1,43 @@
+TOPIC: MS in Software Engineering - Data Science Specialization
+---|--- 
+# Data Science
+
+## Specialization Overview
+
+The Data Science specialization prepares students and professionals to
+investigate and summarize real-world data of all sizes, ask the right
+questions, find informative answers, and create visualizations that
+effectively communicate their results. Through a combination of theory and
+practical data analysis, students learn the foundations of extracting
+knowledge from data, verifying the utility of the information, and scaling
+their analysis to Big Data. The program emphasizes teamwork throughout the
+curriculum, as an essential part of preparing students for working in
+industry.
+
+The specialization focuses on a variety of techniques and methods for
+analyzing data, including data preprocessing, exploratory analysis,
+unsupervised and supervised inference and learning, association analysis and
+pattern mining, Web search, text mining, recommender systems, social network
+and sentiment analysis, hypothesis testing, image recognition, time series
+analysis, deep learning, and data visualization. Students learn and practice
+the entire analytics process, from translating real-world objects into data to
+presenting information gleaned from the analysis.
+
+### Required Specialization Core (6 units, take _both_  of the following
+classes)
+
+  * [CMPE 257](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE257.html) Machine Learning
+  * [CMPE 258](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE258.html) Deep Learning
+
+### Specialization Choice (3 units, take _one_  of the following classes)
+
+  * [CMPE 273](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE273.html) Enterprise Distributed Systems
+  * [CMPE 275](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE275.html) Enterprise Application Development
+  * [CMPE 281](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE281.html) Cloud Technologies
+  * [CMPE 283](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE283.html) Virtualization Technologies
+  * [CMPE 285](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE285.html) Software Engineering Processes
+  * [CMPE 287](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE287.html) Software Quality Assurance and Testing
+  * [CMPE 206](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE206.html) Computer Network Design
+  * [CMPE 207](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE207.html) Network Programming and Applications
+  * [CMPE 209](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE209.html) Network Security
+  * [CMPE 279](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE279.html) Software Security Technologies

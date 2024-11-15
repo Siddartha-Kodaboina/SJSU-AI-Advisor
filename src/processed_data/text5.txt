@@ -1,0 +1,95 @@
+TOPIC: MSAI Program Requirements at SJSU
+---|--- 
+# MSAI Program Requirements
+
+Please consult the latest [SJSU catalog
+](https://catalog.sjsu.edu/preview_program.php?catoid=14&poid=8686)for up-to-
+date course descriptions.
+
+# Core Courses (9 units)
+
+  * CMPE 252 - Artificial Intelligence and Data Engineering (3 units)
+  * CMPE 257 - Machine Learning (3 units)
+  * ISE 201 - Math Foundations for Decision and Data Sciences (3 units)
+
+# Specialization Courses (6 units)
+
+Complete at least 6 units from the same specialization.
+
+## Data Science (6 units)
+
+  * CMPE 255 - Data Mining (3 units)
+  * CMPE 256 - Advanced Data Mining (3 units)
+  * CMPE 259 - Natural Language Processing (3 units)
+
+## Autonomous Systems (6 units)
+
+  * CMPE 249 - Intelligent Autonomous Systems (3 units)
+  * CMPE 258 - Deep Learning (3 units)
+  * CMPE 260 - Reinforcement Learning (3 units)
+
+# Elective Courses (9 units)
+
+Select 3 courses (9 units) from the list below. At least 3 units need to be
+from Area A course list. The remaining 6 units can be selected from either
+list.
+
+## Area A (at least 3 units)
+
+  * CMPE 249 - Intelligent Autonomous Systems (3 units)
+  * CMPE 255 - Data Mining (3 units)
+  * CMPE 256 - Advanced Data Mining (3 units)
+  * CMPE 258 - Deep Learning (3 units)
+  * CMPE 259 - Natural Language Processing (3 units)
+  * CMPE 260 - Reinforcement Learning (3 units)
+
+## Area B (up to 6 units)
+
+  * CMPE 214 - GPU Architecture and Programming (3 units)
+  * CMPE 217 - Human Computer Interaction (3 units)
+  * CMPE 243 - Embedded Systems Applications (3 units)
+  * CMPE 266 - Big Data Engineering and Analytics (3 units)
+  * CMPE 281 - Cloud Technologies (3 units)
+  * CMPE 297 - Special Topics in Computer/Software Engineering (3 units)
+  * CMPE 298 - Special Problems (3 units)
+
+Additional courses should be selected in consultation with the program
+advisor.
+
+# Graduate Writing Requirement (3 units)
+
+Students must pass the [Graduation Writing Assessment Requirement
+(GWAR)](https://catalog.sjsu.edu/content.php?catoid=2&navoid=116#graduation-
+writing-assessment-requirement).
+
+  * CMPE 294 - Computer Engineering Seminar (3 units) 
+
+# Culminating Experience (6 units)
+
+All students must complete one of the following culminating experiences
+(thesis or project). Theses and projects are completed under the supervision
+of an advisor.
+
+## Masters Thesis (6 units)
+
+A master’s thesis includes original research on a topic approved by the thesis
+committee and must meet university requirements as stipulated in this catalog
+and in the SJSU [Master’s Thesis and Doctoral Dissertation
+Guidelines](/cgs/current-students/thesis-and-dissertations/index.php). It
+undergoes a thorough review and revision process under the guidance of the
+candidate’s thesis committee chair with the assistance of the thesis
+committee.
+
+  * CMPE 299A - Master's Thesis I (3 units)
+  * CMPE 299B - Master's Thesis II (3 units)
+
+## Masters Project (6 units)
+
+A master’s project is a research or development effort performed by a student
+individually on a topic chosen by mutual agreement between an advisor and the
+student. The choice of project topic is also approved by the Graduate Advisor.
+The individual student projects could be distinct components of a larger
+integrated project performed by a team of students.
+
+  * CMPE 295A - Master's Project I (3 units)
+  * CMPE 295B - Master's Project II (3 units)

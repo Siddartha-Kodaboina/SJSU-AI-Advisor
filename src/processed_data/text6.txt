@@ -1,0 +1,23 @@
+
+TOPIC: MS in Artificial Intelligence Admission Requirements at SJSU
+---|--- 
+# MSAI Admissions
+
+Candidates must meet all university [admission
+requirements](https://catalog.sjsu.edu/content.php?catoid=2&navoid=101).
+Applicants can be admitted in either classified or conditionally classified
+standing. If an applicant’s preparation for advanced graduate work is
+considered inadequate to meet the course prerequisites or other departmental
+requirements, the conditions will include taking preparatory courses to meet
+these requirements. These courses will not count as part of the master’s
+degree program requirements.
+
+For acceptance by the Department of Computer Engineering, the applicant must
+satisfy the following requirements:
+
+  * Undergraduate degree in math, physics, computer science, engineering, or a closely related field, equivalent to a four-year U.S. undergraduate baccalaureate degree, with demonstrated college-level courses in programming, data structures, algorithm design, three-semester sequence of calculus, linear algebra, and statistics.
+  * Undergraduate GPA of 3.0 or higher.
+  * If undergraduate program is not ABET-accredited, GRE is required with minimum GRE q+v of 305 and GRE AWA of 3.0. GRE q+v minimum higher than 305 may be required for successful admission depending on the number of applicants. 
+    * GRE might be waived if the applicant holds a CS/CMPE or related degree from an accredited US institution, or a graduate (MS/PhD) degree in a STEM domain. This is evaluated on a case-by-case basis. Please email [msai@sjsu.edu](mailto:msai@sjsu.edu) with your specifics.
+  * International applicants must meet SJSU’s minimum requirements on [English-language proficiency tests](/admissions/graduate/admission-requirements/index.php).
+

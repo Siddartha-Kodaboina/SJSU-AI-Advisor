@@ -1,0 +1,114 @@
+TOPIC: Frequently Asked Questions at SJSU
+---|--- 
+# Graduate FAQ
+
+**General Questions**
+
+
+---|--- 
+  * I am an international student and just got admitted, what courses should I take?
+    * You should attend the New Student Orientation which is generally scheduled at the beginning of a semester. You will be notified by your program advisor via email, detailing the schedule and place of the meeting. Additionally, read about the program structure and advising recommendations on your program's website and message [your program advisor](/gape/connect/advisor-and-evaluator.php "Advisor and Evaluator") with any questions.
+   
+---|--- 
+  * What is a Conditional Classification?
+    * Conditional Classification refers to your admission standing at SJSU and means that you have not satisfied all the required conditions for admission. The GAPE office provides you a letter which specifies the conditions being placed on your admission. You are not allowed to take more than 12 units of graduate courses until the conditions are satisfied. After you have satisfied all of the required conditions, you will need to fill out a [Change of Classification in Graduate Program form [pdf]](https://www.sjsu.edu/me/docs/forms_gape-Change%20of%20Classificaton%20in%20Graduate%20Program%2003.17.16.pdf "Change of Classificiation Form") and submit to your [Graduate Program Advisor](/gape/connect/advisor-and-evaluator.php "Advisor and Evaluator") to change your status.
+  
+---|--- 
+  * What is Classified status?
+    * Classified status indicates that you have satisfied all of the conditions of admission.
+  
+---|--- 
+  * Where can I get the candidacy form?
+    * You may obtain the Candidacy form from the [GAPE forms site](*** Broken d:499301 https://www.sjsu.edu/gape/forms/ ***)[BROKEN LINK].
+  
+---|--- 
+  * What is the Graduate Writing Assessment Requirement (GWAR) ?
+    * Please see the university catalog for information regarding the GWAR.
+  
+---|--- 
+  * Are there test requirements?
+    * It depends on the program you are applying to. Please check the GAPE website for test requirements by College and program [here](/admissions/graduate/admission-requirements/degree-program-requirements/index.php "Program Requirements").
+  
+---|---     
+  * Do I need advising every semester in order to register for classes?
+    * It depends on the program. Some programs place an advising hold that requires you to meet with your program advisor every term, while other programs require this meeting only from students who are on academic probation. Even if there is no hold on your account, it is recommended to meet with your program advisor at least once a semester to make sure you are on the right track to graduation. 
+  
+---|--- 
+  * What is a Culminating Experience?
+    * Your culminating experience is a [project or a thesis](https://catalog.sjsu.edu/content.php?catoid=2&navoid=102#masters-thesis-requirements) at the graduate level. A Culminating Experience Form is required by the university to show that you have met the necessary skills to obtain an MS degree. The form is processed by the graduate advisor after you have passed the Project or Thesis course successfully and your final report has been approved by your graduate committee.
+   
+---|--- 
+  * Can I register for more than 4 courses per semester?
+    * Please follow the [Registrar's Office guidelines for maximum units allowed](/registrar/registration/enrollment-limit-waitlist.php). Additionally, the CMPE Department has a policy that limits enrollment for its graduate students at 12 units maximum per semester. 
+   
+---|--- 
+  * May I request a waiver to take the prerequisite courses in my admission letter?
+    * Conditional admission requires that your conditions are satisfied. If you have any prior coursework that might be similar and/or have any questions about your conditions, please contact your program advisor to receive guidance.
+  
+---|--- 
+  * Where can I get the permission number? How do you know the instructor's name?
+    * Permission numbers for each course are assigned to course instructors. You will be able to see the course instructor's name under the MySJSU portal about two to three weeks before each semester starts or earlier.
+   
+---|--- 
+  * Can I register for Internship course CMPE298 first and find internship later?
+    * The CMPE Department requires that students have a job offer letter in order to obtain a permission number from the instructor of CMPE 298i.
+  
+---|--- 
+  * Am I eligible to work for 40 hours a week during my Fall & Spring semester?
+    * Internship work during the Fall and Spring semesters is limited to 20 hours per week maximum for international students via the [Curricular Practical Training (CPT)](*** Broken d:3926850 https://www.sjsu.edu/isss/current-students/employment/cpt/ ***)[BROKEN LINK] program. Full-time work hours are possible while on CPT during the summer term. If you have completed all your program coursework except your culminating experience, talk to an ISSS advisor to see if you are eligible for and interested in early option post-OPT or pre-OPT.
+  
+---|--- 
+  * Can I work both a part-time on-campus job and an off-campus full-time job together?
+    * Full-time work for international students on CPT is allowed during the summer term. You can also [work on campus](*** Broken d:3926846 https://www.sjsu.edu/isss/current-students/employment/campus/ ***)[BROKEN LINK] during that time of the year if your schedule allows. [Check with an ISSS advisor](*** Broken d:3915141 https://www.sjsu.edu/isss/about/contact/ ***)[BROKEN LINK] if you have specific circumstances to consult on.
+  
+---|---   
+  * When should I file for Candidacy?
+    * You will need to be in classified status in your program, have earned at least 9 units of letter-graded courses, have fulfilled the GWAR, and be in good standing to file your [advancement to candidacy petition](/gape/graduate-student-guide/advancement-to-candidacy/index.php). 
+    
+---|--- 
+  * What if I filed for Candidacy and want to change one of the courses listed on the approved Candidacy Form?
+    * You will need to file a Request for Course Substitution to substitute a core or an elective course listed on the candidacy form. You can find this online request under [Forms ](/gape/forms/index.php)on the GAPE website.
+    
+---|--- 
+  * Does the Department of Aviation and Technology offer a graduate program?
+    * Yes, it is currently called MS in Quality Assurance, but there is plan to rename it to MS in Engineering Technology in the near future.
+     
+---|--- 
+  * What is the tuition fees?
+    * Tuition fees and other fees for graduate students can be found under the [Bursar's Office website](/bursar/index.php).
+    
+---|--- 
+  * Is my program a STEM program?
+    * All graduate programs in the College of Engineering are considered STEM programs.
+    
+---|--- 
+  * I have Visa and residency related questions. Who should I contact?
+    * For any questions related to your student visa, other visa status, or compliance with immigration regulations, please visit the ISSS Office ([virtual or in person](*** Broken d:3915141 https://www.sjsu.edu/isss/about/contact/ ***)[BROKEN LINK]). Check their website [here](https://www.sjsu.edu/isss/index.html?utm_source=isa&utm_medium=301&utm_campaign=redirect).
+    
+---|--- 
+  * I have questions about an admission deferral.
+    * For questions about admission deferral to a graduate program, please check [this webpage by the Admissions' Office](/admissions/graduate/been-admitted/deferral-information.php).
+     
+---|--- 
+  * I have been admitted and have questions about the next steps
+    * Check out the steps to enrollment and who to contact if you have questions [here](/admissions/graduate/been-admitted/index.php).
+    
+---|--- 
+  * How do I enroll in a course?
+    * You can enroll via MySJSU during advance registration and the Registrar's Office has a [tutorial [pdf]](/it/docs/peoplesoft/sa/self_service_student/SG_SR_SS_Enroll_Add_Class_9.0.pdf "Register for Classes - Tutorial")on how to add a course.
+     
+---|--- 
+  * How do I drop a course?
+    * Dropping a course is like adding but use the 'drop" tab instead. You can check the steps [here](https://www.sjsu.edu/it.20230314/training/peoplesoft/students/drop-class.php).
+    
+---|--- 
+  * It is almost the first day of the semester and I am trying to enroll but I get an error message. Why?
+    * You might be trying to enroll during the two days of registration closed prior to the start of the semester. To check if this is the reason, please check the [Registrar's Office calendar](/registrar/calendar/index.php) that specifies those dates of no registration activity (no adding nor dropping courses). If that is the case, you will need to wait until the first day of the term to enroll using a permission number.
+    
+---|--- 
+  * Will I get a refund if I drop the course?
+    * To learn more about the refund policy you should check the [Bursar's Office website](/bursar/payment-refunds/index.php). If you are taking a course during summer session, information about refund and drop deadlines can also be found on the [summer session calendar](*** Broken d:509012 https://www.sjsu.edu/summer/calendar/ ***?gclid=Cj0KCQjw2MWVBhCQARIsAIjbwoNrPV_3yl_Kdu0VhNO5v0N2lPOsof_AOzTNwbEXI2qK5Nse-fxu9zMaAlYlEALw_wcB)[BROKEN LINK].
+     
+---|--- 
+  * When can be the last day for an internship?
+    * If you are doing CPT, please be aware of the authorized window for CPT for each term by consulting the [CPT webpage](*** Broken d:3926850 https://www.sjsu.edu/isss/current-students/employment/cpt/ ***)[BROKEN LINK] from the ISSS Office.

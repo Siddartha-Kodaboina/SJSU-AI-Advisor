@@ -1,0 +1,36 @@
+TOPIC: MS in Software Engineering - Cloud Computing
+---|--- 
+# MSSE Cloud Computing
+
+## Specialization Overview
+
+The Cloud Computing and Virtualization specialization prepares students to
+understand the emerging technologies of Cloud Computing and Virtualization,
+their principles, modeling, analysis, design, deployment, and industry-
+oriented applications. Major solution architectures and enabling technologies
+are covered.
+
+Students are prepared for technical careers in developing applications and
+providing services that run on a distributed network using virtualized
+resources and enables customers to access computing resources as needed.
+
+### Required Specialization Core (6 units, take _both_  of the following
+classes)
+
+  * [CMPE 281](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE281.html) Cloud Technologies
+  * [CMPE 283](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE283.html) Virtualization Technologies
+
+### Specialization Choice (3 units, take _one_  of the following classes)
+
+  * [CMPE 273](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE273.html) Enterprise Distributed Systems
+  * [CMPE 275](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE275.html) Enterprise Application Development
+  * [CMPE 285](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE285.html) Software Engineering Processes
+  * [CMPE 287](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE287.html) Software Quality Assurance and Testing
+  * [CMPE 206](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE206.html) Computer Network Design
+  * [CMPE 207](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE207.html) Network Programming and Applications
+  * [CMPE 257](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE257.html) Machine Learning
+  * [CMPE 258](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE209.html) Deep Learning
+
+  * [CMPE 209](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE209.html) Network Security
+
+  * [CMPE 279](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE279.html) Software Security Technologies
