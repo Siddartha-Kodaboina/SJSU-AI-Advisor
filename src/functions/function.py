@@ -13,6 +13,11 @@ load_dotenv()
 class FunctionInputParams:
     prompt: str
 
+@dataclass
+class LLMQnAFunctionInputParams:
+    topic: str
+    section: str
+
 
 @function.defn(name="llm_complete")
 async def llm_complete(input: FunctionInputParams):
@@ -79,8 +84,10 @@ async def data_extraction(input: FunctionInputParams):
         raise e
     
 @function.defn(name="llm_qna_generator")
-async def llm_qna_generator(topic: str, section_content: str) -> dict:
+async def llm_qna_generator(input: LLMQnAFunctionInputParams) -> dict:
     try:
+        topic = input.topic
+        section_content = input.section
         api_key = os.getenv("TOGETHER_API_KEY")
         if not api_key:
             log.error("TOGETHER_API_KEY environment variable is not set.")
@@ -91,7 +98,7 @@ async def llm_qna_generator(topic: str, section_content: str) -> dict:
             api_key=api_key
         )
         
-        prompt = f"""As a SJSU Enginering department advisor, review this documentation section and generate comprehensive specific Q&A pairs that students might ask.
+        prompt = f"""As a SJSU Enginering department advisor, review this documentation section and generate comprehensive specific Questions and Answers pairs that students might ask with curated answers providing all the details and links, instead of jsut mentioning where to find more information.
         
         Topic: {topic}
         Content: {section_content}
@@ -132,50 +139,55 @@ async def llm_qna_generator(topic: str, section_content: str) -> dict:
 @function.defn(name="qna_generator")
 async def qna_generator(input: FunctionInputParams):
     try:
-        log.info("qna_generator function started", input=input)
+        pass
+        return []
+        # log.info("qna_generator function started", input=input)
         
-        # Get the parent directory path
-        current_dir = os.path.dirname(os.path.abspath(__file__))
-        parent_dir = os.path.dirname(current_dir)
-        processed_data_dir = os.path.join(parent_dir, 'processed_data2')
+        # # Get the parent directory path
+        # current_dir = os.path.dirname(os.path.abspath(__file__))
+        # parent_dir = os.path.dirname(current_dir)
+        # processed_data_dir = os.path.join(parent_dir, 'processed_data2')
         
-        # Global list to store all Q&A pairs
-        global_qna_list = []
+        # # Global list to store all Q&A pairs
+        # global_qna_list = []
         
-        # Loop through each file in processed_data directory
-        for filename in os.listdir(processed_data_dir):
-            if filename.endswith('.txt'):
-                file_path = os.path.join(processed_data_dir, filename)
+        # # Loop through each file in processed_data directory
+        # for filename in os.listdir(processed_data_dir):
+        #     if filename.endswith('.txt'):
+        #         file_path = os.path.join(processed_data_dir, filename)
                 
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
+        #         with open(file_path, 'r', encoding='utf-8') as f:
+        #             content = f.read()
                 
-                # Split content into sections
-                sections = content.split('---|---')
+        #         # Split content into sections
+        #         sections = content.split('---|---')
                 
-                # First line of first section contains the topic
-                topic = sections[0].strip().replace('TOPIC: ', '')
-                
-                # Process each section
-                for section in sections[1:]:  # Skip the first section as it's the topic
-                    if section.strip():  # Skip empty sections
-                        # Generate Q&A for this section
-                        qna_json = await llm_qna_generator(topic, section.strip())
-                        log.info(f"-------------filename: {filename}-------------------")
-                        log.info(f"qna_data: {qna_json}")
-                        log.info(f"-------------filename: {filename}-------------------")
-                        try:
-                            # Parse the JSON response and add to global list
-                            qna_data = json.loads(qna_json)
+        #         # First line of first section contains the topic
+        #         topic = sections[0].strip().replace('TOPIC: ', '')
+        #         log.info(f"topic: {topic}")
+        #         log.info(f"sections: {sections}")
+        #         log.info(f"length of sections: {len(sections)}")
+        #         # Process each section
+        #         for ind, section in enumerate(sections[1:], 1):
+        #             log.info(f"ind: {ind} processing")# Skip the first section as it's the topic
+        #             if section.strip():  # Skip empty sections
+        #                 # Generate Q&A for this section
+        #                 qna_json = await llm_qna_generator(topic, section.strip())
+        #                 log.info(f"-------------filename: {filename}-------------------")
+        #                 log.info(f"qna_data: {qna_json}")
+        #                 log.info(f"-------------filename: {filename}-------------------")
+        #                 try:
+        #                     # Parse the JSON response and add to global list
+        #                     qna_data = json.loads(qna_json)
                             
-                            if isinstance(qna_data, list):
-                                global_qna_list.extend(qna_data)
-                        except json.JSONDecodeError as e:
-                            log.error(f"Error parsing JSON for {filename}", error=e)
-                            continue
+        #                     if isinstance(qna_data, list):
+        #                         global_qna_list.extend(qna_data)
+        #                 except json.JSONDecodeError as e:
+        #                     log.error(f"Error parsing JSON for {filename}", error=e)
+        #                     continue
         
-        log.info(f"Generated {len(global_qna_list)} Q&A pairs")
-        return global_qna_list
+        # log.info(f"Generated {len(global_qna_list)} Q&A pairs")
+        # return global_qna_list
         
     except Exception as e:
         log.error("qna_generator function failed", error=e)

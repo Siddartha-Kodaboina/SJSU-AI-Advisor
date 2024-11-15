@@ -4,6 +4,7 @@ from dataclasses import dataclass
 import time
 from restack_ai import Restack
 import uvicorn
+import os
 
 # Define request model
 @dataclass
@@ -50,7 +51,7 @@ async def schedule_workflow(request: PromptRequest):
 @app.post("/api/data/extract")
 async def extract_dataset(request: PromptRequest):
     try:
-        import os
+        
         current_dir = os.path.dirname(os.path.abspath(__file__))
         urls_file_path = os.path.join(current_dir, 'urls.txt')
         
@@ -97,6 +98,9 @@ async def extract_dataset(request: PromptRequest):
 @app.post("/api/data/create")
 async def create_qna_dataset():
     try:
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        processed_data_dir = os.path.join(current_dir, 'processed_data2')
+        
         # Create Restack client
         client = Restack()
         workflow_id = f"{int(time.time() * 1000)}-create_qna_dataset_workflow"
@@ -105,7 +109,7 @@ async def create_qna_dataset():
         runId = await client.schedule_workflow(
             workflow_name="create_qna_dataset_workflow",
             workflow_id=workflow_id,
-            input={"prompt": "something"}
+            input={"prompt": "something", "processed_data_dir": processed_data_dir}
         )
         
         print("Scheduled create_qna_dataset_workflow", runId)
