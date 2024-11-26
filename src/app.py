@@ -7,6 +7,7 @@ import uvicorn
 import os
 from restack_ai.function import function, log, FunctionFailure, log
 import json
+import csv
 
 # Define request model
 @dataclass
@@ -101,7 +102,8 @@ async def extract_dataset(request: PromptRequest):
 async def create_qna_dataset():
     # try:
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    processed_data_dir = os.path.join(current_dir, 'processed_data2')
+    processed_data_dir = os.path.join(current_dir, 'processed_data')
+    # processed_data_dir = os.path.join(current_dir, 'processed_data2')
     
     # Check if directory exists
     if not os.path.exists(processed_data_dir):
@@ -120,7 +122,7 @@ async def create_qna_dataset():
     
     # Initialize global list to store Q&A pairs
     global_qna_list = []
-    for filename in files:
+    for file_index, filename in enumerate(files, 1):
         file_path = os.path.join(processed_data_dir, filename)
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -139,18 +141,21 @@ async def create_qna_dataset():
         
         #Process each section
         for section_index, section in enumerate(sections[1:], 1):
-            if section.strip():  # Skip empty sections
+            if section.strip():
+                log.info(f"section_index: {section_index}")
+                log.info(f"{section_index} - {section}")
+                # continue# Skip empty sections
                 log.info(f"Processing section", 
                         filename=filename,
                         section_number=f"{section_index}/{len(sections)-1}")
                 
                 # Generate Q&A for this section using workflow.step
                 client = Restack()
-                workflow_id = f"{int(time.time() * 1000)}-create_qna_dataset_workflow"
+                workflow_id = f"{int(time.time() * 1000)}-create_qna_dataset_workflow_{file_index}_{section_index}"
 
                 # Start workflow run with prepared data
                 runId = await client.schedule_workflow(
-                    workflow_name="create_qna_dataset_workflow",
+                    workflow_name=f"create_qna_dataset_workflow",
                     workflow_id=workflow_id,
                     input={
                         "prompt": "SJSU Engineering Department",
@@ -171,6 +176,8 @@ async def create_qna_dataset():
                 )
                 
                 try:
+                    # if client:
+                    #     await client.close()
                     # Parse the JSON response and add to global list
                     # qna_data = json.loads(qna_json)
                     log.info(f"qna_data type: {type(qna_data)}")
@@ -181,6 +188,9 @@ async def create_qna_dataset():
                         #         section_number=section_index,
                         #         qna_pairs_added=len(qna_data))
                     log.info(f"global_qna_list: {global_qna_list}")
+                    if section_index == 2:
+                        break
+                    time.sleep(10)
                 except json.JSONDecodeError as e:
                     log.error(f"Error parsing JSON", 
                             filename=filename,
@@ -188,30 +198,15 @@ async def create_qna_dataset():
                             error=str(e))
                     continue
     
-    # Create Restack client
-    # client = Restack()
-    # workflow_id = f"{int(time.time() * 1000)}-create_qna_dataset_workflow"
-
-    # # Start workflow run with prepared data
-    # runId = await client.schedule_workflow(
-    #     workflow_name="create_qna_dataset_workflow",
-    #     workflow_id=workflow_id,
-    #     input={
-    #         "prompt": "SJSU Engineering Department",  # or whatever prompt you want to use
-    #         "files": files,  # List of filenames
-    #         "contents": content_of_files  # List of file contents
-    #     }
-    # )
-    
-    # log.info("Scheduled create_qna_dataset_workflow", 
-    #         run_id=runId, 
-    #         file_count=len(files))
-    
-    # # Get the workflow result
-    # result = await client.get_workflow_result(
-    #     workflow_id=workflow_id,
-    #     run_id=runId
-    # )
+    # Create CSV file from QnA data
+    with open('qna_dataset.csv', 'w', newline='', encoding='utf-8') as file:
+        writer = csv.DictWriter(file, fieldnames=['question', 'answer'])
+        writer.writeheader()
+        for qna in global_qna_list:
+            writer.writerow({
+                'question': qna['question'],
+                'answer': qna['answer']
+            })
     
     return {
         "message": "QnA dataset creation completed",

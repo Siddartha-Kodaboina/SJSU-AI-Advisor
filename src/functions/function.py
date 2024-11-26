@@ -106,7 +106,7 @@ async def llm_qna_generator(input: LLMQnAFunctionInputParams):
         Generate a JSON response containing questions and answers covering all aspects (what, when, where, why, how, who, time, deadlines, status, payments, subjects, subject code, admissions, enrollment restrictions, can AI students take SE course wiseversa etc.).
         Format the response as a list of maps with 'question' and 'answer' keys.
         Only provide the JSON response, nothing else.
-        There is no limit to the number questions per each section, Ensure questions are unique and non-repetitive and cover all the topics of the sections.
+        There is a limit to the number questions per each section, Ensure questions are unique and non-repetitive and cover all the topics of the sections.
         """
         prompt += """
         Example Output Format and Structure of Json File(Only provide a list of json objects with two keys question and answer):
@@ -130,6 +130,12 @@ async def llm_qna_generator(input: LLMQnAFunctionInputParams):
         log.info(f"messages: {messages}")
         resp = llm.chat(messages)
         content = resp.message.content
+        # content = '''[
+        #     {"question": "What is the deadline for applying to SJSU?", "answer": "The deadline for applying to SJSU is 17th of October."},
+        #     {"question": "What is the deadline for applying to SJSU?", "answer": "The deadline for applying to SJSU is 17th of October."},
+        #     {"question": "What is the deadline for applying to SJSU?", "answer": "The deadline for applying to SJSU is 17th of October."},
+        #     {"question": "What is the deadline for applying to SJSU?", "answer": "The deadline for applying to SJSU is 17th of October."}
+        # ]'''
         
         # Parse the JSON string into a Python object before returning
         try:

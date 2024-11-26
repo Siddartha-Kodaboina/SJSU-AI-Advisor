@@ -37,7 +37,7 @@ class create_qna_dataset_workflow:
             topic = input["topic"]
             filename = input["filename"]
             content = input["content"]
-            log.info(f"Processing section in create_qna_dataset_workflow") 
+            log.info(f"Processing section in create_qna_dataset_workflow: {topic}, {filename}, {content}") 
             qna_json = await workflow.step(
                 llm_qna_generator,
                 LLMQnAFunctionInputParams(topic=topic, section=content.strip()),
@@ -46,7 +46,7 @@ class create_qna_dataset_workflow:
         
         
             # Parse the JSON response and add to global list
-            # log.info(f"qna_json before parsing: {qna_json}")
+            log.info(f"qna_json before parsing: {qna_json}")
             qna_data = json.loads(qna_json)
             log.info(f"qna_data type: {type(qna_data)}")
             log.info(f"qna_json after parsing: {qna_data}")
