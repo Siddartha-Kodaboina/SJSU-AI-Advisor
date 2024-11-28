@@ -54,14 +54,14 @@ What are the core courses for MS AI graduate students, and provide their course 
 
 ### Base Model Responce
 ```
-The core courses for MS AI graduate students are CMPE 285 - Artificial Intelligence and Data Mining (3 units), CMPE 287 
-- Machine Learning (3 units), and CMPE 255 - Natural Language Processing (3 units).
+The core courses for MS AI graduate students are CMPE 285 - Artificial Intelligence and Data Engineering (3 units), CMPE 289 
+- Machine Learning (3 units), and ISE 289 - Maths Foundations.
 ```
 
 ## Expected Course Codes/Answer/Responce:
 ```
-The core courses for MS AI graduate students are CMPE 252 - Artificial Intelligence and Data Mining (3 units), CMPE 257 
-- Machine Learning (3 units), and CMPE 259 - Natural Language Processing (3 units).
+The core courses for MS AI graduate students are CMPE 252 - Artificial Intelligence and Data Engineering (3 units), CMPE 257 
+- Machine Learning (3 units), and ISE 201 - Maths Foundations.
 ```
 
 
