@@ -2,11 +2,10 @@
 import requests
 import os
 from dotenv import load_dotenv
-
 load_dotenv()
-
-API_URL = "https://z44mbt93hez5cwy7.us-east-1.aws.endpoints.huggingface.cloud"
 api_key = os.getenv("HF_API_KEY")
+API_URL = "https://z44mbt93hez5cwy7.us-east-1.aws.endpoints.huggingface.cloud"
+
 headers = {
 	"Accept" : "application/json",
 	"Content-Type": "application/json",

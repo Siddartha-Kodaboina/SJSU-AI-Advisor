@@ -86,6 +86,7 @@ def convert_qna_format_parquet():
     except Exception as e:
         print(f"Error in Parquet conversion: {str(e)}")
 
+
 if __name__ == "__main__":
     convert_qna_format_csv()    # Creates CSV with JSON string
     convert_qna_format_parquet() # Creates parquet with native Python objects 
