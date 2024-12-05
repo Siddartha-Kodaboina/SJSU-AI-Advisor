@@ -45,3 +45,12 @@ As a SJSU Computer Enginering department advisor, review this documentation sect
 }
 ```
 
+## RAG ANswer Generation Prompt
+
+```
+prompt = f"""Context: {context}
+
+Student Query: {user_query}
+
+please provide a response based on the given context and to a Student Query as if it is texted by the SJSU Computer Engineering Advisor :"""
+```
