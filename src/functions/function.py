@@ -98,7 +98,7 @@ async def llm_qna_generator(input: LLMQnAFunctionInputParams):
             api_key=api_key
         )
         
-        prompt = f"""As a SJSU Enginering department advisor, review this documentation section and generate comprehensive specific Questions and Answers pairs that students might ask with curated answers providing all the details and links, instead of jsut mentioning where to find more information.
+        prompt = f"""As a SJSU Computer Enginering department advisor, review this documentation section and generate comprehensive specific Questions and Answers pairs that students might ask with curated answers providing all the details and links, instead of jsut mentioning where to find more information.
         
         Topic: {topic}
         Content: {section_content}
