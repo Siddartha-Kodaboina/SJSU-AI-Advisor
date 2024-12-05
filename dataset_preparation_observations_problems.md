@@ -32,7 +32,7 @@ As a SJSU Computer Enginering department advisor, review this documentation sect
 ```
 {
         "question": "Who should I contact for visa or residency-related queries as an international student?",
-        "answer": "For visa or residency-related questions, you should contact the ISSS Office. Visit their website at https://www.sjsu.edu/isss."
+        "answer": "For visa or residency-related questions, you should contact the ISSS Office. Visit their website at /isss."
 }
 ```
 
